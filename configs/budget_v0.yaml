@@ -1,0 +1,17 @@
+schema_version: hideevolve-budget-v0
+currency: CNY
+provider: DeepSeek
+total_hard_cap: 500.0
+# Research policy ceiling. Enforcement is manual until an application-side pre-call guard is implemented.
+phase_caps:
+  W01_W04_baseline_and_bottleneck: 80.0
+  W05_W08_mechanism_pilot: 120.0
+  W09_W12_hard_task_and_preregistration: 100.0
+  W13_W16_formal_search: 150.0
+  contingency: 50.0
+rules:
+  - Every paid run requires a unique run_id and a pre-run maximum cost estimate.
+  - Record model identifier, prompt hash, input tokens, output tokens, retries, and actual cost.
+  - Transport failures follow a declared retry limit and remain in the ledger.
+  - Stop new paid calls when a phase cap or the total hard cap is reached.
+  - Reallocation between phases requires a dated decision-log entry before the affected run.

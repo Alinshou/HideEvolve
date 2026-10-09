@@ -1,0 +1,41 @@
+schema_version: hideevolve-baselines-v0
+captured_at: 2026-10-09
+baselines:
+  - name: ShinkaEvolve
+    role: primary_program_evolution_baseline
+    repository: https://github.com/SakanaAI/ShinkaEvolve
+    commit: 8adc053a2ce4511ad2ac310e004c530a73fb974a
+    license: Apache-2.0
+    local_status: cloned_ignored_worktree
+    verification_note: Official main branch resolved and source installed editable in the project Python 3.11 environment.
+  - name: ReEvo
+    role: secondary_program_evolution_baseline
+    repository: https://github.com/ai4co/reevo
+    commit: 6dce18257da5e11db2d138e417a2fffc5c72d05f
+    local_status: cloned_ignored_worktree
+    license: MIT
+    verification_note: Official main branch resolved; README documents DeepSeek support. Requires a new watermark task adapter.
+    integration_limit_workdays: 2
+  - name: WAM
+    role: image_watermark_reference
+    repository: https://github.com/facebookresearch/watermark-anything
+    commit: pending
+    weights: pending
+    license: pending
+  - name: OrthoMark
+    role: image_watermark_reference
+    repository: https://github.com/QQiuyp/OrthoMark
+    commit: pending
+    weights: pending
+    license: pending
+  - name: SSyncOA
+    role: conditional_geometric_reference
+    repository: https://github.com/zcx-language/SSyncOA
+    commit: pending
+    weights: pending
+    license: pending
+  - name: WAVES
+    role: attack_and_evaluation_reference
+    repository: https://github.com/umd-huang-lab/WAVES
+    commit: pending
+    license: pending

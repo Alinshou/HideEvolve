@@ -1,0 +1,33 @@
+schema_version: hideevolve-hardware-v0
+captured_at: 2026-10-09
+host:
+  manufacturer: HP
+  model: OMEN Gaming Laptop 16-am0xxx
+operating_system:
+  name: Windows 11 Home Chinese
+  version: 10.0.26200
+cpu:
+  model: Intel Core i7-14650HX
+  physical_cores: 16
+  logical_processors: 24
+memory:
+  installed_bytes: 16790925312
+gpu:
+  model: NVIDIA GeForce RTX 5070 Laptop GPU
+  memory_mib: 8151
+  driver_version: "592.27"
+  compute_capability: "12.0"
+storage:
+  drive: C
+  free_bytes_at_capture: 449274957824
+editor:
+  name: Visual Studio Code
+  version: 1.140.0
+python:
+  executable: C:/Anaconda/python.exe
+  version: 3.13.5
+git:
+  version: 2.53.0.windows.2
+notes:
+  - Docker was not available on PATH at capture time.
+  - CUDA runtime compatibility and upstream baseline requirements remain to be checked.

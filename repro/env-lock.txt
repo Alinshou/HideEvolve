@@ -1,0 +1,6 @@
+# HideEvolve W01 environment fingerprint, captured 2026-10-09.
+# Python: 3.11.17 in project .venv
+# ShinkaEvolve: 0.0.7 editable install from Git commit 8adc053a2ce4511ad2ac310e004c530a73fb974a.
+# ReEvo checkout: Git commit 6dce18257da5e11db2d138e417a2fffc5c72d05f; not installed.
+# Full pip package lock: repro/requirements-lock.txt.
+# Windows and GPU fingerprint: repro/hardware.yaml.

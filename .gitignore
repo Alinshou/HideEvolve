@@ -1,0 +1,10 @@
+tmp/
+__pycache__/
+.venv/
+*.pyc
+.env
+data/raw/
+artifacts/
+experiments/runs/
+third_party/
+*.log
