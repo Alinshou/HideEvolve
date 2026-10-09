@@ -12,6 +12,8 @@ The detailed schedule is in `HideEvolve_V5.pdf`. The feasibility decision is in 
 
 The W01 reproduction guide is `docs/W01_REPRODUCTION.md`; the compact result summary is `repro/w01_results.json`.
 
+W02 started early on 2026-10-09. The program-level blind watermark protocol, attack v0, frozen split hashes, two smoke baselines, and contract tests are documented in `docs/W02_REVIEW.md`. No paid watermark search has started.
+
 ## Repository layout
 
 ```text

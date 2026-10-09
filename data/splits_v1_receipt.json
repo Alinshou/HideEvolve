@@ -1,0 +1,28 @@
+{
+  "captured_at": "2026-10-09",
+  "source": "COCO 2017 val2017, local old project",
+  "old_100_csv_sha256": "403f23a673bd603dcc42ae3854fe5de3828770c509a190073f714fc7db268044",
+  "old_1000_jsonl_sha256": "bdfbaf081c61d2c63e9f06cc1052ee5bfe66f45b34b59e350b76bd1021d266d2",
+  "source_archive_sha256_recorded": "4f7e2ccb2866ec5041993c9cf2a952bbed69647b115d0f74da7ce8f4bef82f05",
+  "historical_excluded_count": 1100,
+  "near_duplicate_metric": "64-bit grayscale dHash",
+  "near_duplicate_reject_threshold": 5,
+  "candidate_near_duplicates_rejected": 0,
+  "selection_domain": "HideEvolve-W02-v1:<12-digit file name> SHA-256 ascending",
+  "test_access_policy": "D-test image bytes were opened only to compute source hashes and perceptual dHash during split construction; no watermark candidate or attack was evaluated on D-test. Formal evaluation remains sealed until W15.",
+  "splits": {
+    "d_search": {
+      "count": 60,
+      "manifest_sha256": "daf148744818488da1872cc47111f6753db15e1381d0926403ba3c84fc526480"
+    },
+    "d_select": {
+      "count": 20,
+      "manifest_sha256": "e76441b240b547aca17a33425c97c933bc9d790cac84840bbbd17eb659e8b6b7"
+    },
+    "d_test": {
+      "count": 1000,
+      "manifest_sha256": "315d6a13938de49559af1e6951c8681a5a83d8de2a5d82943ed90a25f202c4e8"
+    }
+  },
+  "historical_excluded_manifest_sha256": "75c7a54272662e3de83e016323c74692c0cf7023332cf271b6b1844be4abe2a2"
+}

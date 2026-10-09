@@ -1,0 +1,22 @@
+schema_version: hideevolve-attacks-v0
+captured_at: 2026-10-09
+attacks:
+  - id: A0_identity
+    operation: identity
+  - id: A1_jpeg_q75
+    operation: jpeg
+    quality: 75
+    subsampling: 0
+    optimize: false
+    progressive: false
+  - id: A1_rotate_p5
+    operation: rotate
+    degrees: 5.0
+    resampling: bicubic
+    fill_rgb: [0, 0, 0]
+  - id: A1_scale_0p9
+    operation: scale
+    factor: 0.9
+    resampling: bicubic
+    fill_rgb: [0, 0, 0]
+note: A2/A3 attacks and their final intensities remain scheduled for W09 freeze.

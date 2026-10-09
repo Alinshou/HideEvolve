@@ -1,0 +1,30 @@
+schema_version: hideevolve-program-protocol-v1
+status: W02_exploratory_freeze
+captured_at: 2026-10-09
+image:
+  width: 256
+  height: 256
+  channels: RGB
+  dtype: uint8
+  preprocessing: center_square_crop_then_lanczos_resize
+payload_bits: 32
+key_bytes: 16
+quality:
+  minimum_psnr_db: 35.0
+  no_attack_exact_message_required: true
+limits:
+  embed_timeout_seconds: 5
+  decode_timeout_seconds: 5
+  max_candidate_source_bytes: 131072
+  max_child_output_bytes: 1048576
+failure:
+  invalid_quality_or_payload_score: 0.0
+  timeout_score: 0.0
+  exception_score: 0.0
+  count_all_proposals: true
+attacks_config: configs/attacks_v0.yaml
+selection:
+  search_manifest: data/splits_d_search_v1.sha256
+  select_manifest: data/splits_d_select_v1.sha256
+  test_manifest: data/splits_d_test_v1.sha256
+  test_policy: sealed_until_W15

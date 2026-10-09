@@ -1,0 +1,12 @@
+test_attacks_are_deterministic_and_keep_shape (test_contract.W02Contract.test_attacks_are_deterministic_and_keep_shape) ... ok
+test_blind_message_lookup_fails (test_contract.W02Contract.test_blind_message_lookup_fails) ... ok
+test_candidate_cannot_open_original_image_from_local_filesystem (test_contract.W02Contract.test_candidate_cannot_open_original_image_from_local_filesystem) ... ok
+test_decode_child_request_has_no_original_message_or_attack_truth (test_contract.W02Contract.test_decode_child_request_has_no_original_message_or_attack_truth) ... ok
+test_frozen_split_identity_and_hashes (test_contract.W02Contract.test_frozen_split_identity_and_hashes) ... ok
+test_timeout_exception_and_quality_each_consume_slot (test_contract.W02Contract.test_timeout_exception_and_quality_each_consume_slot) ... ok
+test_two_mathematical_structures_share_evaluator (test_contract.W02Contract.test_two_mathematical_structures_share_evaluator) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 9.637s
+
+OK

@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-09",
+  "phase": "W02 exploratory",
+  "manifest_sha256": "daf148744818488da1872cc47111f6753db15e1381d0926403ba3c84fc526480",
+  "results": [
+    {
+      "image": "000000140270.jpg",
+      "baseline": "spatial_lsb",
+      "candidate_sha256": "cd07cb6b2b25cc13d2b5d7515d62f9fd11ed9f8c22636dc8984451826338187d",
+      "seed": 2026100901,
+      "protocol": "hideevolve-program-protocol-v1",
+      "proposed": 1,
+      "feasible": true,
+      "score": 0.25,
+      "status": "completed_valid",
+      "attacks": {
+        "A0_identity": {
+          "ber": 0.0,
+          "message_success": true
+        },
+        "A1_jpeg_q75": {
+          "ber": 0.5,
+          "message_success": false
+        },
+        "A1_rotate_p5": {
+          "ber": 0.4375,
+          "message_success": false
+        },
+        "A1_scale_0p9": {
+          "ber": 0.5,
+          "message_success": false
+        }
+      },
+      "failure": null,
+      "psnr_db": 88.27927945258443,
+      "wall_seconds": 0.6089999999385327
+    },
+    {
+      "image": "000000140270.jpg",
+      "baseline": "dct_qim",
+      "candidate_sha256": "dca4b4a9a6cafea93994a3cc64aae0bff987949679fcda9a2492e8cc4687fa9f",
+      "seed": 2026100902,
+      "protocol": "hideevolve-program-protocol-v1",
+      "proposed": 1,
+      "feasible": true,
+      "score": 0.25,
+      "status": "completed_valid",
+      "attacks": {
+        "A0_identity": {
+          "ber": 0.0,
+          "message_success": true
+        },
+        "A1_jpeg_q75": {
+          "ber": 0.40625,
+          "message_success": false
+        },
+        "A1_rotate_p5": {
+          "ber": 0.5,
+          "message_success": false
+        },
+        "A1_scale_0p9": {
+          "ber": 0.5,
+          "message_success": false
+        }
+      },
+      "failure": null,
+      "psnr_db": 60.797399182522426,
+      "wall_seconds": 1.6089999999385327
+    },
+    {
+      "image": "000000418281.jpg",
+      "baseline": "spatial_lsb",
+      "candidate_sha256": "cd07cb6b2b25cc13d2b5d7515d62f9fd11ed9f8c22636dc8984451826338187d",
+      "seed": 2026100903,
+      "protocol": "hideevolve-program-protocol-v1",
+      "proposed": 1,
+      "feasible": true,
+      "score": 0.25,
+      "status": "completed_valid",
+      "attacks": {
+        "A0_identity": {
+          "ber": 0.0,
+          "message_success": true
+        },
+        "A1_jpeg_q75": {
+          "ber": 0.375,
+          "message_success": false
+        },
+        "A1_rotate_p5": {
+          "ber": 0.46875,
+          "message_success": false
+        },
+        "A1_scale_0p9": {
+          "ber": 0.5625,
+          "message_success": false
+        }
+      },
+      "failure": null,
+      "psnr_db": 89.60553510533033,
+      "wall_seconds": 0.5779999999795109
+    },
+    {
+      "image": "000000418281.jpg",
+      "baseline": "dct_qim",
+      "candidate_sha256": "dca4b4a9a6cafea93994a3cc64aae0bff987949679fcda9a2492e8cc4687fa9f",
+      "seed": 2026100904,
+      "protocol": "hideevolve-program-protocol-v1",
+      "proposed": 1,
+      "feasible": true,
+      "score": 0.25,
+      "status": "completed_valid",
+      "attacks": {
+        "A0_identity": {
+          "ber": 0.0,
+          "message_success": true
+        },
+        "A1_jpeg_q75": {
+          "ber": 0.46875,
+          "message_success": false
+        },
+        "A1_rotate_p5": {
+          "ber": 0.46875,
+          "message_success": false
+        },
+        "A1_scale_0p9": {
+          "ber": 0.5625,
+          "message_success": false
+        }
+      },
+      "failure": null,
+      "psnr_db": 60.25802635869454,
+      "wall_seconds": 1.3900000001303852
+    },
+    {
+      "image": "000000419408.jpg",
+      "baseline": "spatial_lsb",
+      "candidate_sha256": "cd07cb6b2b25cc13d2b5d7515d62f9fd11ed9f8c22636dc8984451826338187d",
+      "seed": 2026100905,
+      "protocol": "hideevolve-program-protocol-v1",
+      "proposed": 1,
+      "feasible": true,
+      "score": 0.25,
+      "status": "completed_valid",
+      "attacks": {
+        "A0_identity": {
+          "ber": 0.0,
+          "message_success": true
+        },
+        "A1_jpeg_q75": {
+          "ber": 0.53125,
+          "message_success": false
+        },
+        "A1_rotate_p5": {
+          "ber": 0.46875,
+          "message_success": false
+        },
+        "A1_scale_0p9": {
+          "ber": 0.4375,
+          "message_success": false
+        }
+      },
+      "failure": null,
+      "psnr_db": 89.02561563555346,
+      "wall_seconds": 0.5779999999795109
+    },
+    {
+      "image": "000000419408.jpg",
+      "baseline": "dct_qim",
+      "candidate_sha256": "dca4b4a9a6cafea93994a3cc64aae0bff987949679fcda9a2492e8cc4687fa9f",
+      "seed": 2026100906,
+      "protocol": "hideevolve-program-protocol-v1",
+      "proposed": 1,
+      "feasible": true,
+      "score": 0.25,
+      "status": "completed_valid",
+      "attacks": {
+        "A0_identity": {
+          "ber": 0.0,
+          "message_success": true
+        },
+        "A1_jpeg_q75": {
+          "ber": 0.34375,
+          "message_success": false
+        },
+        "A1_rotate_p5": {
+          "ber": 0.40625,
+          "message_success": false
+        },
+        "A1_scale_0p9": {
+          "ber": 0.40625,
+          "message_success": false
+        }
+      },
+      "failure": null,
+      "psnr_db": 61.200889393890606,
+      "wall_seconds": 1.422000000020489
+    }
+  ]
+}
