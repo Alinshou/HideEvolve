@@ -1,0 +1,36 @@
+{
+  "schema_version": "hideevolve-w01-summary-v1",
+  "date": "2026-10-09",
+  "purpose": "Engineering smoke-run evidence",
+  "upstream_commit": "8adc053a2ce4511ad2ac310e004c530a73fb974a",
+  "baseline_score": 0.9597642169962064,
+  "baseline_repetitions": 2,
+  "search_runs": [
+    {
+      "run_id": "w01-shinka-a2-001",
+      "candidate_correct": true,
+      "raw_score": 1.2793899694857103,
+      "candidate_sha256": "418eaa4d054b2fe8b7ac340ebb1e732bce69d55afeb2dfd6da615afbd093fceb",
+      "input_tokens": 2064,
+      "output_tokens": 2048,
+      "framework_cost_usd": 0.0008624
+    },
+    {
+      "run_id": "w01-shinka-b-001",
+      "candidate_correct": false,
+      "raw_score": 2.2391574738041835,
+      "validation_error": "Circles 1 & 12 overlap",
+      "candidate_sha256": "a0489b2ec69b9948e294f0045e4dae5fba4e33d3af634bea3a77c7dca362a057",
+      "input_tokens": 1841,
+      "output_tokens": 1872,
+      "framework_cost_usd": 0.0007819
+    }
+  ],
+  "limitations": [
+    "No explicit framework seeds were frozen; identical regenerated candidates are not promised.",
+    "Exact prompt hashes are unavailable in the current compact ledger.",
+    "Full raw evidence remains in locally retained ignored run directories.",
+    "Framework costs have not been reconciled with the provider invoice.",
+    "Circle-packing results do not establish an advantage on watermarking."
+  ]
+}
