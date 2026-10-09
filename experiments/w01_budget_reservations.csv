@@ -1,0 +1,3 @@
+run_id,reserved_at,host_seed,reserved_cny,notes
+w01-shinka-seeded-c-001,2026-10-09T14:52:38.851467+08:00,2026100901,0.36,"One generated proposal; output cap 4096; no embedding/meta calls; pre-run reservation, not billing"
+w01-shinka-seeded-d-001,2026-10-09T14:53:20.944399+08:00,2026100902,0.36,"One generated proposal; output cap 4096; no embedding/meta calls; pre-run reservation, not billing"

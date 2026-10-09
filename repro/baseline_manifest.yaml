@@ -16,6 +16,7 @@ baselines:
     license: MIT
     verification_note: Official main branch resolved; README documents DeepSeek support. Requires a new watermark task adapter.
     integration_limit_workdays: 2
+    integration_risk_document: docs/REEVO_INTEGRATION_RISK_W01.md
   - name: WAM
     role: image_watermark_reference
     repository: https://github.com/facebookresearch/watermark-anything

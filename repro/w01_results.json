@@ -28,7 +28,7 @@
   ],
   "limitations": [
     "No explicit framework seeds were frozen; identical regenerated candidates are not promised.",
-    "Exact prompt hashes are unavailable in the current compact ledger.",
+    "Prompt fields are retained in SQLite, but exact prompt hashes have not been organized into the compact ledger.",
     "Full raw evidence remains in locally retained ignored run directories.",
     "Framework costs have not been reconciled with the provider invoice.",
     "Circle-packing results do not establish an advantage on watermarking."

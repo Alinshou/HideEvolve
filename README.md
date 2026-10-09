@@ -6,7 +6,7 @@ The study asks whether an agent can discover executable and robust `embed`/`deco
 
 ## Current status
 
-W01 opened early on 2026-10-09 and completed its environment audit, upstream baseline inventory, DeepSeek connectivity probe, and two bounded official ShinkaEvolve searches. One generated candidate was valid and one was invalid. The review permits continuing to W02 with the recorded constraints.
+W01 opened early on 2026-10-09. The environment, upstream inventory and DeepSeek connectivity are operational. The initial two bounded ShinkaEvolve searches produced one valid and one invalid candidate; a clean-environment reproduction and two additional seeded host runs have since passed. W01 acceptance is GO with a documented evidence-form deviation: full raw logs and post-run display images substitute for historical desktop screenshots. See `每周实验报告/W01_第一周任务完成与严格验收报告.md`.
 
 The detailed schedule is in `HideEvolve_V5.pdf`. The feasibility decision is in `docs/FEASIBILITY_ASSESSMENT_V0.md`, and the active checklist is in `docs/W01_EXECUTION.md`.
 

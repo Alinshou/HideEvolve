@@ -1,0 +1,78 @@
+{
+  "collected_at": "2026-10-09T15:00:08.209020+08:00",
+  "install_reproduction": "repro/install.log",
+  "runs": [
+    {
+      "run_id": "w01-shinka-seeded-c-001",
+      "host_seed": 2026100901,
+      "model_api_seed": null,
+      "upstream_commit": "8adc053a2ce4511ad2ac310e004c530a73fb974a",
+      "python": "C:\\Users\\21882\\VS.project\\HideEvolve\\tmp\\w01-install-repro-20261009\\Scripts\\python.exe",
+      "output_token_cap": 4096,
+      "candidate_cap": 1,
+      "exit_code": 0,
+      "correct": true,
+      "raw_score": 1.3155893066264288,
+      "error": null,
+      "candidate_sha256": "a53dd01057b43864bcb85c78ec1ada4eb440e8696642e2e536839432c76df8d8",
+      "prompt_sha256": "304fa7f0081959cba93e1f9580cfa66ef739c9f4c80b0b869b36867403172364"
+    },
+    {
+      "run_id": "w01-shinka-seeded-d-001",
+      "host_seed": 2026100902,
+      "model_api_seed": null,
+      "upstream_commit": "8adc053a2ce4511ad2ac310e004c530a73fb974a",
+      "python": "C:\\Users\\21882\\VS.project\\HideEvolve\\tmp\\w01-install-repro-20261009\\Scripts\\python.exe",
+      "output_token_cap": 4096,
+      "candidate_cap": 1,
+      "exit_code": 0,
+      "correct": true,
+      "raw_score": 2.33170358323925,
+      "error": null,
+      "candidate_sha256": "1b31e66fd512cc8b1749b9c8aff1627eae3623bda42560f0acc033f0a3e15cdb",
+      "prompt_sha256": "304fa7f0081959cba93e1f9580cfa66ef739c9f4c80b0b869b36867403172364"
+    }
+  ],
+  "costs": [
+    {
+      "run_id": "w01-shinka-seeded-c-001",
+      "timestamp": "2026-10-09T14:52:38.851467+08:00",
+      "provider": "DeepSeek",
+      "model": "deepseek-chat",
+      "prompt_sha256": "304fa7f0081959cba93e1f9580cfa66ef739c9f4c80b0b869b36867403172364",
+      "input_tokens": 1841,
+      "output_tokens": 1648,
+      "queries": 1,
+      "framework_cost_usd": 0.00071918,
+      "estimated_cost_cny": 0.005178096,
+      "billed_cost_cny": "",
+      "wall_seconds": 24.345239,
+      "sampling_seconds": 7.8030195236206055,
+      "evaluation_seconds": 3.957939863204956,
+      "execution_seconds": 0.5155278998427093,
+      "status": "completed_valid",
+      "notes": "Prompt hash is archived stored JSON bytes; cost uses planning exchange rate 7.2, not invoice"
+    },
+    {
+      "run_id": "w01-shinka-seeded-d-001",
+      "timestamp": "2026-10-09T14:53:20.945404+08:00",
+      "provider": "DeepSeek",
+      "model": "deepseek-chat",
+      "prompt_sha256": "304fa7f0081959cba93e1f9580cfa66ef739c9f4c80b0b869b36867403172364",
+      "input_tokens": 1841,
+      "output_tokens": 1670,
+      "queries": 1,
+      "framework_cost_usd": 0.0007253400000000001,
+      "estimated_cost_cny": 0.005222448000000001,
+      "billed_cost_cny": "",
+      "wall_seconds": 24.011035,
+      "sampling_seconds": 7.412032604217529,
+      "evaluation_seconds": 6.102888584136963,
+      "execution_seconds": 2.2668016999959946,
+      "status": "completed_valid",
+      "notes": "Prompt hash is archived stored JSON bytes; cost uses planning exchange rate 7.2, not invoice"
+    }
+  ],
+  "engineering_gate": "GO",
+  "limits": "No watermark performance claim. API sampling remains nondeterministic. Costs are estimates."
+}

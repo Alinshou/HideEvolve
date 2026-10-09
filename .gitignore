@@ -8,3 +8,7 @@ artifacts/
 experiments/runs/
 third_party/
 *.log
+repro/w01_evidence/
+repro/w01_closeout_evidence/
+每周实验报告/*.zip
+每周实验报告/W01_截图/

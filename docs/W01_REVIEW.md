@@ -1,8 +1,20 @@
 # W01 review
 
-Status: **GO WITH W02 CONSTRAINTS**
+Status: **GO WITH DOCUMENTED EVIDENCE-FORM DEVIATION AND W02 CONSTRAINTS**
 
 Review due: 2026-10-18
+
+## 2026-10-09 final direct-evidence check
+
+The user asked us to inspect the evidence directly rather than wait for their screenshots. We inspected C/D source logs, `correct.json`, generation-1 SQLite metadata, generated code, and the archive readback. Each run exited 0 and produced a `correct=true` candidate with internally consistent score, tokens, cost and hashes. The screenshot line item is fulfilled through preserved raw logs plus explicitly labeled post-run log display images; live historical desktop screenshots do not exist and are not claimed. This is a documented evidence-form deviation. The missing first-install transcript is addressed by a separate clean-environment installation reproduction, not backdated. W01 engineering and documentary acceptance is GO under these limits. W02 planning may proceed; no watermark method claim is made.
+
+## 2026-10-09 closeout update
+
+Standalone `repro/repo_audit.md` and `docs/REEVO_INTEGRATION_RISK_W01.md` are present. A separately dated clean environment installation reproduction in `repro/install.log` passed with exit code 0, `pip check`, and exact installed package-version comparisons. The original first-install transcript remains missing. Two further official example runs C/D completed in the new environment with distinct host RNG seeds; both generated valid candidates. New framework-estimated API cost is CNY 0.01040, bringing the recorded W01 estimate to about CNY 0.02225. Full portable evidence, stored prompt hashes, logs, code, and SQLite backups were archived in `每周实验报告/W01_完整证据包_20261009.zip` and verified by CRC and hash readback. Log display images are post-run renderings; the final direct-evidence check above records the accepted evidence-form deviation.
+
+## 2026-10-09 strict-schedule initial audit amendment
+
+The original engineering GO below did not establish complete delivery against page 3 of `HideEvolve_V5.pdf`. The original installation log and log screenshots were not found, and standalone repository-audit and ReEvo-risk documents were missing. The detailed weekly report in `每周实验报告/W01_第一周任务完成与严格验收报告.md` now supplies audit and risk content, but does not fabricate the absent historical installation evidence. W01 remains REVISE for strict delivery until gaps are closed or an explicit exception is recorded. Current SQLite records contain prompt fields; their hashes have not yet been organized into the ledger. Missing framework seeds remain a historical limitation.
 
 ## Evidence available
 
@@ -30,4 +42,4 @@ Review due: 2026-10-18
 
 ## Decision
 
-W01 passes. Continue to W02 with the constraints above. The result is an engineering gate, not evidence that ShinkaEvolve or DeepSeek is superior for watermarking.
+Original engineering decision: GO to W02 with the constraints above. The strict delivery amendment takes precedence over any interpretation that W01 is unconditionally complete. The result is an engineering gate, not evidence that ShinkaEvolve or DeepSeek is superior for watermarking.

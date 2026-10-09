@@ -1,0 +1,10 @@
+{
+  "archive": "每周实验报告/W01_完整证据包_20261009.zip",
+  "bytes": 446416,
+  "sha256": "19270b404fff89b9ef6f2e5ed4873d3ae7651b8733519cb27dbce48c8e71a4f5",
+  "file_count_excluding_checksum": 56,
+  "zip_crc": "PASS",
+  "all_hash_readback": "PASS",
+  "sqlite_integrity": "PASS",
+  "checked_at": "2026-10-09T15:00:08.275131+08:00"
+}
